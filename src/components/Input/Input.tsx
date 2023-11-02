@@ -1,5 +1,6 @@
-import { Input } from "./styles";
+import { InputType } from "./types";
+import { InputField } from "./styles";
 
-export function Input() {
-  return <Input />;
+export function Input(props: InputType) {
+  return <InputField {...props} />;
 }
