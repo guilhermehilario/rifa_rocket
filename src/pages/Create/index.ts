@@ -1,1 +1,1 @@
-export { CreateRifaController } from "./create-rifa-controller";
+export { CreateRifa } from "./create-rifa";

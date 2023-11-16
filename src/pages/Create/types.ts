@@ -1,1 +1,3 @@
-export type CreateRifaViewProps = {};
+export type CreateRifaViewProps = {
+  title: string;
+};
