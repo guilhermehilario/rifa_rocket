@@ -1,11 +1,11 @@
-import { InputType } from "./types";
-import { InputField } from "./styles";
+import { InputProps } from "./types";
+import { Container, InputField } from "./styles";
 
-export function Input(props: InputType) {
+export function Input(props: InputProps) {
   return (
-    <div>
+    <Container>
       <label>{props.label}</label>
       <InputField {...props} />
-    </div>
+    </Container>
   );
 }
