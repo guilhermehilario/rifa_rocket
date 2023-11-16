@@ -1,1 +1,3 @@
-export type InputType = React.InputHTMLAttributes<HTMLInputElement>;
+export type InputType = React.InputHTMLAttributes<HTMLInputElement> & {
+  label?: string;
+};
