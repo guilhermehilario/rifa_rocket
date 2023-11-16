@@ -11,10 +11,10 @@ export const Container = styled.div`
   height: 100vh;
 `;
 
-export const Title = styled.text`
+export const Title = styled.h1`
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   font-size: 32px;
   font-weight: 700;
   padding: 0;
-  margin: 24px 0;
+  margin-top: 24px;
 `;
