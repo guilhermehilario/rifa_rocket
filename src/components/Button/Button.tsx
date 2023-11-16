@@ -1,6 +1,6 @@
 import { Container } from "./styles";
-import { ButtonType } from "./types";
+import { ButtonProps } from "./types";
 
-export function Button(props: ButtonType) {
+export function Button(props: ButtonProps) {
   return <Container {...props}> {props.children} </Container>;
 }
