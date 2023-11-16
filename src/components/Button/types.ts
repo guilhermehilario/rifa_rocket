@@ -1,3 +1,1 @@
-export type ButtonType = React.ButtonHTMLAttributes<HTMLButtonElement> & {
-  label: string;
-};
+export type ButtonType = React.ButtonHTMLAttributes<HTMLButtonElement>;
