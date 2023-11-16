@@ -7,7 +7,7 @@ export function CreateRifaView(props: CreateRifaViewProps) {
   return (
     <Container>
       <h1>Rifa Rockt</h1>
-      <Input label="Nome da rifa" placeholder="Digite o nome da rifa..." />
+      <Input label="paulinda" name="Nome da rifa" placeholder="Digite o nome da rifa..." />
       <Button>Criar</Button>
     </Container>
   );

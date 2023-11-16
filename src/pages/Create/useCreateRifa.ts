@@ -1,0 +1,3 @@
+export function useCreateRifa() {
+  return {};
+}
